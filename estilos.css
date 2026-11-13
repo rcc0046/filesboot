@@ -1,0 +1,25 @@
+:root {
+  --teal: #0b5563;
+  --teal-dark: #083d47;
+  --paper: #f4f7f7;
+  --ink: #16262b;
+  --bs-body-font-family: "Manrope", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --bs-body-color: var(--ink);
+  --bs-link-color: var(--teal);
+  --bs-link-hover-color: var(--teal-dark);
+}
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+body { background: var(--paper); }
+h1, h2, h3 { letter-spacing: -0.01em; }
+.fw-extrabold { font-weight: 800; }
+.text-teal { color: var(--teal); }
+.hero { background: linear-gradient(180deg, #e3eeef 0%, var(--paper) 100%); }
+.avatar { border: 6px solid #fff; box-shadow: 0 0 0 2px var(--teal); }
+.btn-teal { --bs-btn-bg: var(--teal); --bs-btn-border-color: var(--teal); --bs-btn-color: #fff;
+  --bs-btn-hover-bg: var(--teal-dark); --bs-btn-hover-border-color: var(--teal-dark); --bs-btn-hover-color: #fff;
+  --bs-btn-active-bg: var(--teal-dark); --bs-btn-active-border-color: var(--teal-dark); --bs-btn-active-color: #fff; }
+.navbar .nav-link:hover, .navbar .nav-link:focus { color: var(--teal); }
+a:focus-visible, button:focus-visible, .form-control:focus-visible { outline: 3px solid #e09f3e; outline-offset: 2px; }
+.card-img-top { background: #dbe7e9; }
+footer a { text-decoration: none; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
